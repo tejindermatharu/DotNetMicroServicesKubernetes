@@ -1,0 +1,1 @@
+https://github.com/dotnet-architecture/eShopOnContainers/tree/dev/deploy/k8s

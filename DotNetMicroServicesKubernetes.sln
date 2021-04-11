@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF2C375F-644F-403C-B19B-EB99B6DC38DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{9E58AD04-708E-4CDA-B00E-A3C6259118F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplication", "WebApplication", "{3094041A-10CF-4764-94D4-6D20ECBD1D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{C3825CF2-8464-4267-9417-4A6679001690}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi", "WeatherApi\WeatherApi.csproj", "{9CD67E64-ADCA-421B-8059-6B8BF01E7A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherWeb", "WeatherWeb\WeatherWeb.csproj", "{74418751-6AC2-4CD8-A856-1E27095F34F9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12C2ED9B-3638-465C-8F5B-CA03276053C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{CBB3771C-17F8-440C-9C14-5EE07C4C0705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{09D7A9C1-11F8-4C84-A1F1-75B4BA6AE7E1}"
+	ProjectSection(SolutionItems) = preProject
+		deployment.yml = deployment.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72DC9AC3-1AFF-45E7-BA89-05C431E50613}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CD67E64-ADCA-421B-8059-6B8BF01E7A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD67E64-ADCA-421B-8059-6B8BF01E7A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD67E64-ADCA-421B-8059-6B8BF01E7A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD67E64-ADCA-421B-8059-6B8BF01E7A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74418751-6AC2-4CD8-A856-1E27095F34F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74418751-6AC2-4CD8-A856-1E27095F34F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74418751-6AC2-4CD8-A856-1E27095F34F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74418751-6AC2-4CD8-A856-1E27095F34F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C2ED9B-3638-465C-8F5B-CA03276053C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C2ED9B-3638-465C-8F5B-CA03276053C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C2ED9B-3638-465C-8F5B-CA03276053C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C2ED9B-3638-465C-8F5B-CA03276053C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E58AD04-708E-4CDA-B00E-A3C6259118F5} = {EF2C375F-644F-403C-B19B-EB99B6DC38DF}
+		{3094041A-10CF-4764-94D4-6D20ECBD1D0F} = {9E58AD04-708E-4CDA-B00E-A3C6259118F5}
+		{C3825CF2-8464-4267-9417-4A6679001690} = {9E58AD04-708E-4CDA-B00E-A3C6259118F5}
+		{9CD67E64-ADCA-421B-8059-6B8BF01E7A57} = {C3825CF2-8464-4267-9417-4A6679001690}
+		{74418751-6AC2-4CD8-A856-1E27095F34F9} = {3094041A-10CF-4764-94D4-6D20ECBD1D0F}
+		{09D7A9C1-11F8-4C84-A1F1-75B4BA6AE7E1} = {CBB3771C-17F8-440C-9C14-5EE07C4C0705}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06E84DE6-AD93-4EE2-B076-F7BE43607FEE}
+	EndGlobalSection
+EndGlobal
