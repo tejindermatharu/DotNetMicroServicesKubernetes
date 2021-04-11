@@ -14,7 +14,9 @@ Or you can still run with container support using IIS Express by using the multi
 
 After that to run these containers using a local kubernetes cluster (ensure you have kubernetes enabled via Docker Desktop) , you can run the below command from the rootdirectory.
 
-docker compose build
+```powershell
+docker-compose build
+```
 
 Then run docker images and make sure that you see two images:
 
@@ -23,11 +25,15 @@ weatherapi: latest
 
 Then you can run from root directory:
 
+```powershell
 kubectl apply -f deployment.yml 
+```
 
 Run:
 
+```powershell
 kubectl get all
+```
 
 You should see two pods running in the pods section:
 
